@@ -1,6 +1,6 @@
 # Aimbooster.com-cheat
 
-Scans every 5th pixel on a defined region, and looks for a set colour in the Blue channel of RGB channels of the pixel.
+Scans every 5th pixel on a defined region. On every 5th pixel it checks the blue channel of RGB values for the value of 195.
 Once finding a match, it will invoke a click using pywin32 library.
 
 Install these libraries from an administrator terminal (windows):
